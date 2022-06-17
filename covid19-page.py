@@ -45,7 +45,7 @@ source = ColumnDataSource(data={
 
 
 # Create the figure: plot
-plot = figure(title='Covid Cases data of Indonesia for 2020 per province', x_axis_label='Total Cases', y_axis_label='Total Deaths',
+plot = figure(title='Persebaran kasus covid 19 di tiap provinsi tahun 2020', x_axis_label='Total Cases', y_axis_label='Total Deaths',
            plot_height=750, plot_width=1000,
              title_location='above', tools = ['pan, wheel_zoom, box_zoom, reset','tap'])
 
